@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>음악 스트리밍 사이트</title>
+    <link rel="stylesheet" href="../css/Reset.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/chart.css">
+</head>
+
+<body>
+    <header class="header_pc">
+        <section class="utill_menu">
+            <p>멜론 티켓</p>
+            <ul>
+                <li>이용권 구매</li>
+                <li>멜론 혜택</li>
+                <li>이벤트</li>
+                <li>공지사항</li>
+                <li class="header_login">
+                    <input type="radio" id="login_button" name="login" hidden>
+                    <input type="radio" id="logout_button" name="login" checked hidden>
+                    <ul>
+                        <li class="user_name">
+                            ###님
+                        </li>
+                        <li class="logout_button">
+                            <label for="logout_button">로그아웃</label>
+
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section class="utill_header">
+            <div class="logo">
+                <h1>Melon</h1>
+            </div>
+
+            <div class="serchbar">
+                <input type="textbox">
+            </div>
+
+            <div class="top_lank">
+                <p>인기 검색어</p>
+                <p>롤링 스크롤(javascript)</p>
+            </div>
+        </section>
+
+        <nav class="gnb_menu">
+            <ul>
+                <li>멜론차트</li>
+                <li>최신음악</li>
+                <li>장르음악</li>
+                <li>멜론DJ</li>
+                <li>멜론TV</li>
+                <li>스타포스트</li>
+                <li>매거진</li>
+                <li>뮤직어워드</li>
+                <li>뮤직웨이브</li>
+            </ul>
+            <p>마이뮤직</p>
+        </nav>
+
+    </header>
+
+    <main>
+        <div class="top">
+            <div class="chart_name">
+                <div>TOP100</div>
+                <div>HOT100</div>
+                <div>일간</div>
+                <div>주간</div>
+                <div>월간</div>
+                <div>시대</div>
+            </div>
+            <div class="chart_finder">
+                차트 파인더
+            </div>
+        </div>
+        <div class="chart_now_name">TOP100</div>
+        <div class="now_time">현재 시간</div>
+
+        <div class="song_list"></div>
+    </main>
+</body>
+
+</html>
