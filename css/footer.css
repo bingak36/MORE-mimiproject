@@ -1,0 +1,29 @@
+.footer_pc {
+  margin-top: 24px;
+  border-top: 1px solid #8b8b8b;
+  width: 1000px;
+  margin: 32px auto 0;
+}
+
+.footer_pc ul {
+  width: 1000px;
+  height: 53px;
+  display: flex;
+  justify-content: right;
+  /* gap: 24px; */
+  font-size: 15px;
+  color: #64646a;
+  /* padding: 24px 0; */
+}
+.footer_pc ul li {
+  padding: 17px 6px 18px;
+}
+
+.footer_data {
+  border-top: 1px solid #64646a;
+  font-size: 11px;
+  margin: 0 0 40px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
