@@ -168,11 +168,22 @@
   color: #777;
 }
 
+.top_100 {
+  margin-top: 12px;
+}
+
+.top_100 p {
+  margin-bottom: 8px;
+}
+.top_100 ul li:nth-child(odd) {
+  background: #d4d4d4;
+}
+
 .top_100 ul li a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 16px 0 0 0;
+  padding: 16px 0 0 0;
   padding-bottom: 4px;
   font-size: 12px;
   border-bottom: 1px solid #ddd;
@@ -180,4 +191,39 @@
 
 .lank_song_title {
   overflow: hidden;
+  max-width: 100px;
+  height: 12px;
+}
+.lank_artist_name {
+  overflow: hidden;
+  max-width: 80px;
+  height: 12px;
+}
+
+.chart_value_list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top_100 input {
+  display: none;
+}
+
+.TOP {
+  display: none;
+}
+#TOP:checked ~ .TOP {
+  display: block;
+}
+.POP {
+  display: none;
+}
+#POP:checked ~ .POP {
+  display: block;
+}
+.artist {
+  display: none;
+}
+#artist:checked ~ .artist {
+  display: block;
 }
